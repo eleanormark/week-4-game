@@ -1,0 +1,82 @@
+* {
+	color: black;
+}
+
+body {
+	background-image:url('background.jpg');
+	background-repeat:no-repeat;
+ }
+
+.info {
+	background-color: #d4b171;
+	border: 3px solid #89795f;	
+	opacity: 0.7;
+    filter: alpha(opacity=70);
+    width: 50%;
+    padding-left: 8px;
+    margin-left: 3%;
+
+}
+
+.inline {
+	display: inline-block;
+	width: 20%;
+	height: 0;
+	padding-bottom: 3%;
+	background-color: #d4b171;
+	border: 3px solid #89795f;	
+	opacity: 0.7;
+    filter: alpha(opacity=70);
+    text-align: left;
+    padding-left: 8px;
+}
+.center-multiple-divs {
+	text-align: center;
+}
+
+.sprite {
+	opacity: 0.88;
+    filter: alpha(opacity=88);
+    width: 20%;
+	height: 0;
+	padding-bottom: 10.5%;
+	background-image: url("gems.jpg");
+	display:inline-block;
+}
+
+.sprite:active {
+	opacity: 1;
+    filter: alpha(opacity=100);
+
+}
+.sprite.red{
+	background-position: 10% 0;
+	background-size: 455%;
+}
+
+.sprite.purple{
+	background-position: 36% 0;
+	background-size: 500%;
+}
+
+.sprite.blue{
+	background-position: 63% 0;
+	background-size: 455%;
+}
+
+.sprite.yellow{
+	background-position: 63% 83%;
+	background-size: 455%;
+
+}
+
+.gems {
+	text-align: center;	
+}
+
+
+
+
+
+
+

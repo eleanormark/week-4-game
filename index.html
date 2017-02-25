@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Crystals Collectors</title>
+</head>
+
+<body>
+    <div class="info">
+      <h1>Crystals Collectors</h1>
+      <h4>You will be given a random number at the start of the game.</h4>
+      <h4>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</h4>
+      <h4>You win the game by matching your total score to the random number, you lose the game if yourtotal score goes above the random number.</h4>
+      <h4>The value of each crystal is hidden from you until you click on it.</h4>
+      <h4>The game starts with a new value for each crystal.</h4>
+    </div>
+    <br>
+    <div class="center-multiple-divs">
+    <h4 class="inline">Match Number:&emsp;<span id="random-match-number"></span></h4>
+    <h4 class="inline">Total Score:&emsp;<span id="total-score"></span></h4>
+    </div>
+
+    <div class="center-multiple-divs">
+    <h4 class="inline">Wins:&emsp;<span id="wins"></span></h4>
+    <h4 class="inline">Losses: &emsp;<span id="losses"></span></h4>
+    </div>
+
+    <br>
+    <div class="gems">
+      <div class="sprite red" id="red"></div>
+      <div class="sprite purple" id="purple"></div>
+      <div class="sprite blue" id="blue"></div>
+      <div class="sprite yellow" id="yellow"></div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/games.js"></script>
+</body>
+
+</html>
